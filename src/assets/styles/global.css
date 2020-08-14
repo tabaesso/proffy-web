@@ -1,0 +1,58 @@
+:root {
+    --color-background: #F0F0F7;
+    --color-primary-lighter: #66C7CC;
+    --color-primary-light: #3BACB1;
+    --color-primary: #57AFE5;
+    --color-primary-dark: #218FD4;
+    --color-primary-darker: #1C77B0;
+    --color-secundary: #EC839E;
+    --color-secundary-dark: #e5577b;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #c2d4ff;
+    --color-text-title: #26304D;
+    --color-text-complement: #989CA6;
+    --color-text-base: #617380;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+  
+    font-size: 60%;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+body {
+    background: var(--color-background);
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body, input, button, textarea {
+    font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
+}
+
+.container {
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}
