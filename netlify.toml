@@ -1,0 +1,3 @@
+[build]
+
+enviroment = {PROFFY_SERVER=https://tabaesso-proffy-deploy.herokuapp.com}
