@@ -1,3 +1,4 @@
 [build]
 
-enviroment = {PROFFY_SERVER=https://tabaesso-proffy-deploy.herokuapp.com}
+Command = "npm run lambda-build"
+Functions = "lambda"
